@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(172, 255, 227);
+}
+
+.navegacion {
+    width:1000px;
+    margin: auto;
+    background:rgb(228, 145, 228) ;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+.menu > li {
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color:black;
+    font-family: 'open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: rgb(43, 226, 104);
+    transition: all .3s;
+
+}
+.submenu {
+    position: absolute;
+    background: rgb(206, 105, 246);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: 'open sans';
+    text-decoration: none;
+}
+.menu li:hover .submenu {
+     visibility: visible;
+     opacity: 1;
+}
+.titulo {
+    font-size: x-large;
+    color: rgb(58, 3, 110);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.subtitulo {
+    font-size: 30px;
+    color: rgb(238, 52, 142);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.lista {
+    font-size: 20px;
+    color: rgb(162, 17, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.fin {
+    font-size: 30px;
+    color: rgb(238, 52, 142);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.pag2 {
+    text-align: center;
+}
+.footer {
+    background-color: blueviolet;
+    position: fixed;
+    color: aqua;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
